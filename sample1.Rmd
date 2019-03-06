@@ -4,3 +4,14 @@ title: "Sample 1"
 
 # sample1
 
+```{r echo=FALSE}
+library(magrittr)
+data("iris")
+iris %>% summary %>% knitr::kable()
+```
+
+```{r}
+
+```
+
+# finish
